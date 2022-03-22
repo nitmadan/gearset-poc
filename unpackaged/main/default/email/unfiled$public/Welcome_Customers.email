@@ -1,0 +1,17 @@
+Dear {!Reservation__c.Customer__c},
+We are delighted that you have selected our hotel for your lovely vacation.
+On behalf of the entire team at the {!Reservation__c.Hotel__c}.
+I extend you a very warm welcome and trust your stay with us will be both enjoyable and comfortable.
+
+The hotel offers a selection of business services and facilities which are detailed in the booklet, placed on the writing-table in your room.
+
+Should you require any assistance or have any specific requirements, please do not hesitate to contact me on extension ( xxxxxxxxxxxx ).
+
+Your booking details are as follows;
+Booking ID :- {!Reservation__c.Reservation_ID__c}
+Check IN Date :- {!Reservation__c.Check_IN_Date__c}
+Check OUT Date :- {!Reservation__c.Check_OUT_Date__c}
+
+With best regards / Yours sincerely,
+
+Hotel Manager

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Room_Name__c</fullName>
+    <externalId>false</externalId>
+    <label>Room Name</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DOUBLE</fullName>
+                <default>false</default>
+                <label>DOUBLE</label>
+            </value>
+            <value>
+                <fullName>KING</fullName>
+                <default>false</default>
+                <label>KING</label>
+            </value>
+            <value>
+                <fullName>QUEEN</fullName>
+                <default>false</default>
+                <label>QUEEN</label>
+            </value>
+            <value>
+                <fullName>SINGLE</fullName>
+                <default>false</default>
+                <label>SINGLE</label>
+            </value>
+            <value>
+                <fullName>STUDIO</fullName>
+                <default>false</default>
+                <label>STUDIO</label>
+            </value>
+            <value>
+                <fullName>SUITE</fullName>
+                <default>false</default>
+                <label>SUITE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
